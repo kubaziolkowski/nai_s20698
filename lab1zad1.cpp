@@ -21,7 +21,7 @@
 };
 
 auto f1 = [](int x){
-    return x = 20 - abs(x);
+    return 20 - abs(x);
     };
    
    auto f2 = [](int x2){
@@ -30,7 +30,7 @@ auto f1 = [](int x){
 
 int main(int argc, char **argv) {
     using namespace std;
-    auto [a,b] = obliczenia(f1, f2, 1);
+    auto [a,b] = obliczenia(f1, f2, 3);
     cout << a << endl;
     cout << b << endl;
 }
