@@ -21,7 +21,7 @@
 };
 
 auto f1 = [](int x){
-    return x = 5 - abs(x);
+    return x = 20 - abs(x);
     };
    
    auto f2 = [](int x2){
